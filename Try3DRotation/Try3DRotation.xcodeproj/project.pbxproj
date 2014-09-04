@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A4F96419B87DFF00F75A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4F96319B87DFF00F75A49 /* AppDelegate.swift */; };
+		89A4F96619B87DFF00F75A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4F96519B87DFF00F75A49 /* ViewController.swift */; };
+		89A4F96919B87DFF00F75A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F96719B87DFF00F75A49 /* Main.storyboard */; };
+		89A4F96B19B87DFF00F75A49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F96A19B87DFF00F75A49 /* Images.xcassets */; };
+		89A4F97719B87DFF00F75A49 /* Try3DRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4F97619B87DFF00F75A49 /* Try3DRotationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A4F97119B87DFF00F75A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A4F95619B87DFE00F75A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A4F95D19B87DFE00F75A49;
+			remoteInfo = Try3DRotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89A4F95E19B87DFE00F75A49 /* Try3DRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try3DRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A4F96219B87DFF00F75A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A4F96319B87DFF00F75A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89A4F96519B87DFF00F75A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89A4F96819B87DFF00F75A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A4F96A19B87DFF00F75A49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89A4F97019B87DFF00F75A49 /* Try3DRotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try3DRotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A4F97519B87DFF00F75A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A4F97619B87DFF00F75A49 /* Try3DRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Try3DRotationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A4F95B19B87DFE00F75A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A4F96D19B87DFF00F75A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A4F95519B87DFE00F75A49 = {
+			isa = PBXGroup;
+			children = (
+				89A4F96019B87DFE00F75A49 /* Try3DRotation */,
+				89A4F97319B87DFF00F75A49 /* Try3DRotationTests */,
+				89A4F95F19B87DFE00F75A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A4F95F19B87DFE00F75A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A4F95E19B87DFE00F75A49 /* Try3DRotation.app */,
+				89A4F97019B87DFF00F75A49 /* Try3DRotationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A4F96019B87DFE00F75A49 /* Try3DRotation */ = {
+			isa = PBXGroup;
+			children = (
+				89A4F96319B87DFF00F75A49 /* AppDelegate.swift */,
+				89A4F96519B87DFF00F75A49 /* ViewController.swift */,
+				89A4F96719B87DFF00F75A49 /* Main.storyboard */,
+				89A4F96A19B87DFF00F75A49 /* Images.xcassets */,
+				89A4F96119B87DFE00F75A49 /* Supporting Files */,
+			);
+			path = Try3DRotation;
+			sourceTree = "<group>";
+		};
+		89A4F96119B87DFE00F75A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A4F96219B87DFF00F75A49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A4F97319B87DFF00F75A49 /* Try3DRotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A4F97619B87DFF00F75A49 /* Try3DRotationTests.swift */,
+				89A4F97419B87DFF00F75A49 /* Supporting Files */,
+			);
+			path = Try3DRotationTests;
+			sourceTree = "<group>";
+		};
+		89A4F97419B87DFF00F75A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A4F97519B87DFF00F75A49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A4F95D19B87DFE00F75A49 /* Try3DRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A4F97A19B87DFF00F75A49 /* Build configuration list for PBXNativeTarget "Try3DRotation" */;
+			buildPhases = (
+				89A4F95A19B87DFE00F75A49 /* Sources */,
+				89A4F95B19B87DFE00F75A49 /* Frameworks */,
+				89A4F95C19B87DFE00F75A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try3DRotation;
+			productName = Try3DRotation;
+			productReference = 89A4F95E19B87DFE00F75A49 /* Try3DRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A4F96F19B87DFF00F75A49 /* Try3DRotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A4F97D19B87DFF00F75A49 /* Build configuration list for PBXNativeTarget "Try3DRotationTests" */;
+			buildPhases = (
+				89A4F96C19B87DFF00F75A49 /* Sources */,
+				89A4F96D19B87DFF00F75A49 /* Frameworks */,
+				89A4F96E19B87DFF00F75A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A4F97219B87DFF00F75A49 /* PBXTargetDependency */,
+			);
+			name = Try3DRotationTests;
+			productName = Try3DRotationTests;
+			productReference = 89A4F97019B87DFF00F75A49 /* Try3DRotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A4F95619B87DFE00F75A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Howard Yeh";
+				TargetAttributes = {
+					89A4F95D19B87DFE00F75A49 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					89A4F96F19B87DFF00F75A49 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 89A4F95D19B87DFE00F75A49;
+					};
+				};
+			};
+			buildConfigurationList = 89A4F95919B87DFE00F75A49 /* Build configuration list for PBXProject "Try3DRotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A4F95519B87DFE00F75A49;
+			productRefGroup = 89A4F95F19B87DFE00F75A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A4F95D19B87DFE00F75A49 /* Try3DRotation */,
+				89A4F96F19B87DFF00F75A49 /* Try3DRotationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A4F95C19B87DFE00F75A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A4F96919B87DFF00F75A49 /* Main.storyboard in Resources */,
+				89A4F96B19B87DFF00F75A49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A4F96E19B87DFF00F75A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A4F95A19B87DFE00F75A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A4F96619B87DFF00F75A49 /* ViewController.swift in Sources */,
+				89A4F96419B87DFF00F75A49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A4F96C19B87DFF00F75A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A4F97719B87DFF00F75A49 /* Try3DRotationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A4F97219B87DFF00F75A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A4F95D19B87DFE00F75A49 /* Try3DRotation */;
+			targetProxy = 89A4F97119B87DFF00F75A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A4F96719B87DFF00F75A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A4F96819B87DFF00F75A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A4F97819B87DFF00F75A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A4F97919B87DFF00F75A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A4F97B19B87DFF00F75A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Try3DRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89A4F97C19B87DFF00F75A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Try3DRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89A4F97E19B87DFF00F75A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try3DRotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try3DRotation.app/Try3DRotation";
+			};
+			name = Debug;
+		};
+		89A4F97F19B87DFF00F75A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try3DRotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try3DRotation.app/Try3DRotation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A4F95919B87DFE00F75A49 /* Build configuration list for PBXProject "Try3DRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A4F97819B87DFF00F75A49 /* Debug */,
+				89A4F97919B87DFF00F75A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A4F97A19B87DFF00F75A49 /* Build configuration list for PBXNativeTarget "Try3DRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A4F97B19B87DFF00F75A49 /* Debug */,
+				89A4F97C19B87DFF00F75A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89A4F97D19B87DFF00F75A49 /* Build configuration list for PBXNativeTarget "Try3DRotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A4F97E19B87DFF00F75A49 /* Debug */,
+				89A4F97F19B87DFF00F75A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A4F95619B87DFE00F75A49 /* Project object */;
+}
